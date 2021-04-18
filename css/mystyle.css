@@ -1,0 +1,40 @@
+/* HOVER COLOR */
+
+a svg:hover #facebook,
+a svg:hover #instagram { 
+  fill: #111;
+}
+
+/* GENERAL STYLES */
+article { 
+  width: 100%; 
+  margin: 60px auto; 
+  text-align: center;
+  zoom: 2;
+}
+a { 
+  outline: none; 
+  border: 0; 
+  text-decoration: none; 
+}
+a svg #facebook,
+a svg #instagram { 
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+
+.linktree {
+  width: 120px;
+  height: 120px;
+  background-image: url("https://media-exp1.licdn.com/dms/image/C4E03AQGPwsNjaxFX3g/profile-displayphoto-shrink_400_400/0/1590243734020?e=1620259200&v=beta&t=Ho8PHHRC7ZPO3DOrNsLTyQJOrRt2VWoe4ktTCq7Ypgo");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+
+
+
