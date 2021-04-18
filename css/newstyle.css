@@ -232,8 +232,8 @@ a svg #instagram {
 .linktree {
   width: 120px;
   height: 120px;
-  /* background-image: url("https://instagram.ffec10-1.fna.fbcdn.net/v/t51.2885-19/s150x150/170214177_162573268979693_9041440383413753348_n.jpg?tp=1&_nc_ht=instagram.ffec10-1.fna.fbcdn.net&_nc_ohc=_YySaSNa2uQAX8Fh645&edm=ABfd0MgAAAAA&ccb=7-4&oh=9042c76ee1ce3803353fd618235485a1&oe=60A1623A&_nc_sid=7bff83"); */
-  background-image: url("../imgs/profile.png");
+  background-image: url("https://instagram.ffec10-1.fna.fbcdn.net/v/t51.2885-19/s150x150/170214177_162573268979693_9041440383413753348_n.jpg?tp=1&_nc_ht=instagram.ffec10-1.fna.fbcdn.net&_nc_ohc=_YySaSNa2uQAX8Fh645&edm=ABfd0MgAAAAA&ccb=7-4&oh=9042c76ee1ce3803353fd618235485a1&oe=60A1623A&_nc_sid=7bff83");
+  /* background-image: url("../imgs/profile.png"); */
 
   background-size: cover;
   background-repeat: no-repeat;
