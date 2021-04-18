@@ -33,11 +33,11 @@
 	 font-weight: 300;
 }
  .wrapper {
-	 background: #50a3a2;
-	 background: -webkit-linear-gradient(top left,#50a3a2 0%,#53e3a6 100%);
-	 background: -moz-linear-gradient(top left,#50a3a2 0%,#53e3a6 100%);
-	 background: -o-linear-gradient(top left,#50a3a2 0%,#53e3a6 100%);
-	 background: linear-gradient(to bottom right,#50a3a2 0%,#53e3a6 100%);
+	 background: #9370DB;
+	 background: -webkit-linear-gradient(top left,#9370DB 0%,#4B0082 100%);
+	 background: -moz-linear-gradient(top left,#9370DB 0%,#4B0082 100%);
+	 background: -o-linear-gradient(top left,#9370DB 0%,#4B0082 100%);
+	 background: linear-gradient(to bottom right,#9370DB 0%,#4B0082 100%);
 }
  .wrapper.form-success .container h1 {
 	 transform: translateY(85px);
@@ -221,9 +221,9 @@ a svg #instagram {
 }
 
 .backdrop {
-    -moz-box-shadow: 0px 6px 5px #111; 
-    -webkit-box-shadow: 0px 6px 5px #111; 
-    box-shadow: 0px 2px 10px #111; 
+    -moz-box-shadow: 0px 6px 5px #800080; 
+    -webkit-box-shadow: 0px 6px 5px #800080; 
+    box-shadow: 0px 2px 10px #800080; 
     -moz-border-radius:190px; 
     -webkit-border-radius:190px; 
     border-radius:190px;
