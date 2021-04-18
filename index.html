@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />  
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ 
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.3/dist/sweetalert2.all.min.js"></script>
+  
+  <script src="//cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
 
   <link rel="icon" type="image/svg" href="favicon.svg"/>
 <title>
@@ -47,6 +51,22 @@
                 <button onclick="location.href='https://twitter.com/eu_pedrocardoso'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"> <i class="fab fa-instagram"></i> Twitter</button>
               </div>
 
+              <div style="padding-bottom: 3em;">
+                <button onclick="AwaitPortifolio()" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"> <i class="fas fa-hard-hat"></i> Portifólio - Em Construção</button>
+              </div>
+
+<script>
+function AwaitPortifolio(){
+
+  Swal.fire(
+  'Obrigado pelo interesse!',
+  'Breve você terá acesso ao meu portifolio completo, Por enquanto, me chama privado!',
+  'success'
+)
+
+}
+
+</script>
 	</div>
 	
 	<ul class="bg-bubbles">
