@@ -1,109 +1,104 @@
-
+<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
-
-<link rel="stylesheet" href="css/newstyle.css">
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />  
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
- 
-  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.3/dist/sweetalert2.all.min.js"></script>
-  
-  <script src="//cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.js"></script>
-
-  <link rel="icon" type="image/svg" href="favicon.svg"/>
-<title>
-    Pedro Cardoso -  Full Stack Developer
-    </title>
-
+  <title>Pedro Cardoso · Full Stack Developer</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg"/>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/newstyle.css">
 </head>
 <body class="wrapper">
-	<div class="container">
 
-        <div class="text-center" style="padding-top: 30px; padding-bottom: 30px;">
-            <img class="backdrop linktree">
-            <h3 style="color: #ffffff; padding-top: 20px;">Pedro Cardoso <br> Full Stack Developer </h3>
-        
+  <!-- Floating bubbles background -->
+  <ul class="bg-bubbles" aria-hidden="true">
+    <li></li><li></li><li></li><li></li><li></li>
+    <li></li><li></li><li></li><li></li><li></li>
+  </ul>
 
-            
+  <div class="container">
 
+    <!-- Profile card -->
+    <div class="profile-card">
+      <img class="backdrop linktree" alt="Pedro Cardoso">
+      <h1 class="profile-name">Pedro Cardoso</h1>
+      <p class="profile-role">Full Stack Developer</p>
+
+      <!-- Social quick-links -->
+      <div class="social-icons">
+        <a href="https://github.com/PedroPCardoso" target="_blank" rel="noopener" class="social-icon" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/eupedrocardoso/" target="_blank" rel="noopener" class="social-icon" title="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://twitter.com/eu_pedrocardoso" target="_blank" rel="noopener" class="social-icon" title="Twitter / X">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/eu.pedrocardoso/" target="_blank" rel="noopener" class="social-icon" title="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://t.me/pedropcardoso" target="_blank" rel="noopener" class="social-icon" title="Telegram">
+          <i class="fab fa-telegram"></i>
+        </a>
       </div>
-        <div class="text-center">
-            <div style="padding-bottom: 3em;">
-              <button onclick="location.href='https://t.me/pedropcardoso'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"><i class="fab fa-telegram"></i> Fale comigo</button>
-           </div>
+    </div>
 
-                    <div style="padding-bottom: 3em;">
-                <button onclick="location.href='https://discord.gg/Ct5b657D'" type="button" class="btn btn-outline-light"
-                  style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"><i class="fab fa-discord"></i>
-                 Faça parte da Comunidade Caminho Dev</button>
-              </div>
+    <!-- Links -->
+    <div class="links-section">
 
-              <div style="padding-bottom: 3em;">
-                 <button onclick="location.href='https://ppcardoso.medium.com/'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"> <i class="fab fa-medium"></i> Medium</button>
-              </div>
-              
-              <div style="padding-bottom: 3em;">
-                <button onclick="location.href='https://www.linkedin.com/in/eupedrocardoso/'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"> <i class="fab fa-linkedin"></i> Linkedin</button>
-                
-             </div>
+      <a href="portfolio.html" class="link-btn btn-portfolio">
+        <span class="btn-icon"><i class="fas fa-briefcase"></i></span>
+        <span class="btn-text">Portifólio</span>
+      </a>
 
-                  <div style="padding-bottom: 3em;">
-                <button onclick="location.href='https://www.instagram.com/eu.pedrocardoso/'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"> <i class="fab fa-instagram"></i> instagram</button>
-                
-             </div>
+      <a href="https://t.me/pedropcardoso" target="_blank" rel="noopener" class="link-btn">
+        <span class="btn-icon"><i class="fab fa-telegram"></i></span>
+        <span class="btn-text">Fale comigo</span>
+      </a>
 
-                               <div style="padding-bottom: 3em;">
-                    <button onclick="location.href='https://www.youtube.com/watch?v=kmRFNfdamAM'" type="button" class="btn btn-outline-light"
-                      style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"> <i class="fab fa-youtube"></i>
-                      AbsamCast - Ultimo Episódio</button>
-                  </div>
-                  
-            <div style="padding-bottom: 3em;">
-                <button onclick="location.href='https://twitter.com/eu_pedrocardoso'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"> <i class="fab fa-twitter"></i> Twitter</button>
-              </div>
+      <a href="https://ppcardoso.medium.com/" target="_blank" rel="noopener" class="link-btn">
+        <span class="btn-icon"><i class="fab fa-medium"></i></span>
+        <span class="btn-text">Medium</span>
+      </a>
 
+      <a href="https://www.linkedin.com/in/eupedrocardoso/" target="_blank" rel="noopener" class="link-btn">
+        <span class="btn-icon"><i class="fab fa-linkedin"></i></span>
+        <span class="btn-text">LinkedIn</span>
+      </a>
 
+      <a href="https://www.instagram.com/eu.pedrocardoso/" target="_blank" rel="noopener" class="link-btn">
+        <span class="btn-icon"><i class="fab fa-instagram"></i></span>
+        <span class="btn-text">Instagram</span>
+      </a>
 
+      <a href="https://www.youtube.com/watch?v=kmRFNfdamAM" target="_blank" rel="noopener" class="link-btn">
+        <span class="btn-icon"><i class="fab fa-youtube"></i></span>
+        <span class="btn-text">AbsamCast – Último Episódio</span>
+      </a>
 
-              <div style="padding-bottom: 3em;">
-                <button onclick="location.href='https://absam.io/?id=26'" type="button" class="btn btn-outline-light"
-                  style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"> <i class="fas fa-cloud"></i>
-                  Criar nova conta da Absam</button>
-              </div>
+      <a href="https://twitter.com/eu_pedrocardoso" target="_blank" rel="noopener" class="link-btn">
+        <span class="btn-icon"><i class="fab fa-x-twitter"></i></span>
+        <span class="btn-text">Twitter / X</span>
+      </a>
 
-              <div style="padding-bottom: 3em;">
+      <a href="https://absam.io/?id=26" target="_blank" rel="noopener" class="link-btn">
+        <span class="btn-icon"><i class="fas fa-cloud"></i></span>
+        <span class="btn-text">Criar nova conta da Absam</span>
+      </a>
 
-                <button onclick="location.href='https://github.com/PedroPCardoso'" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"> <i class="fab fa-github"></i> Github</button>
-            </div>
-      
-              <div style="padding-bottom: 3em;">
-                <button onclick="AwaitPortifolio()" type="button" class="btn btn-outline-light" style="width: 80%; padding-top:10px; padding-bottom:10px; font-weight: 600;"> <i class="fas fa-hard-hat"></i> Portifólio - Em Construção</button>
-              </div>
+      <a href="https://github.com/PedroPCardoso" target="_blank" rel="noopener" class="link-btn">
+        <span class="btn-icon"><i class="fab fa-github"></i></span>
+        <span class="btn-text">GitHub</span>
+      </a>
 
-<script>
-function AwaitPortifolio(){
-    Swal.fire(
-      'Obrigado pelo interesse!',
-      'Breve você terá acesso ao meu portifolio completo, Por enquanto, me chama no privado!',
-      'success'
-    )
+    </div>
+  </div>
 
-}
-
-</script>
-	</div>
-	
-	<ul class="bg-bubbles">
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-		<li></li>
-    </ul>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
+</html>
